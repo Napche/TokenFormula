@@ -1,0 +1,35 @@
+{
+  "name"       : "napche/token-formula",
+  "type"       : "library",
+  "description": "Token formula parser for PHP.",
+  "keywords"   : ["PHP", "Token", "Formula", "Calculation"],
+  "homepage"   : "https://github.com/Napche/TokenFormula",
+  "license"    : "MIT",
+
+  "authors": [
+    {
+      "name"    : "Dieter Vanmoortel - Napche",
+      "homepage": "https://github.com/Napche",
+      "role"    : "Mastermind"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/Napche/TokenFormula",
+    "source": "https://github.com/Napche/TokenFormula"
+  },
+
+  "require": {
+    "php": ">=7.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "TokenFormula\\": "src/"
+    }
+  },
+
+  "config": {
+    "preferred-install": "dist"
+  }
+}
